@@ -73,3 +73,14 @@ body {
     padding-left: 20px;
     margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container p {
+        margin: auto;
+        padding: auto;
+    }
+}
