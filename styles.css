@@ -30,6 +30,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    width: 100%;
 }
 
 .topnav a:hover {
@@ -100,6 +101,10 @@ body {
     min-width: 150px;
     width: 80%;
     height: auto;
+}
+
+.p-container div:hover {
+    background-color: #8ccfe9;
 }
 
 .p-container i {
